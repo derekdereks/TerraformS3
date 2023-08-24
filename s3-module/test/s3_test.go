@@ -10,7 +10,7 @@ func TestTerraformS3Bucket(t *testing.T) {
     t.Parallel()
 
     terraformOptions := &terraform.Options{
-        TerraformDir: "../example",
+        TerraformDir: "../s3-module/example",
         NoColor: true,
     }
 
