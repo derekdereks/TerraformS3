@@ -11,8 +11,7 @@ This Terraform module provisions a private S3 bucket with features like KMS encr
 - [Inputs](#inputs)
 - [Outputs](#outputs)
 - [Testing with Terratest](#testing-with-terratest)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 - [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) v0.14+
