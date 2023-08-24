@@ -74,4 +74,12 @@ go test -v
 ```
 Ensure you have your AWS credentials set up and the Go runtime installed.
 
+### Assumptions:
+
+1. The bucket is private by default.
+2. Versioning is enabled by default, as it's generally a best practice for data protection and recovery.
+3. The KMS key and alias are created for each bucket.
+4. Logging is optional; users can define a logging target bucket and prefix if desired.
+5. Tags can be added to both the bucket and the KMS key for better resource management.
+
 
