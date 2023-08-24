@@ -29,7 +29,7 @@ Include this module in your Terraform configurations:
 
 ```hcl
 module "s3_bucket" {
-  source      = "github.com/derekdereks/TerraformS3//?ref=master"
+  source      = "github.com/derekdereks/TerraformS3/s3-module?ref=master"
   bucket_name = "your_bucket_name"
 
   tags = {
